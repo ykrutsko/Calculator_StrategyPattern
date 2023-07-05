@@ -8,7 +8,7 @@ namespace Calculator
 {
     public class Div : IStrategy
     {
-        public double DoAlgorithm(double a, double b = 0) =>
+        public double DoAlgorithm(double a, double b) =>
             b == 0 ? throw new DivideByZeroException() : a / b;
     }
 }

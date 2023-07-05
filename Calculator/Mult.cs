@@ -8,6 +8,6 @@ namespace Calculator
 {
     public class Mult : IStrategy
     {
-        public double DoAlgorithm(double a, double b = 0) => a * b;
+        public double DoAlgorithm(double a, double b) => a * b;
     }
 }
